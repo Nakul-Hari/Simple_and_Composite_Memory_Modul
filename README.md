@@ -29,10 +29,11 @@ The `composite_memory_tb` testbench verifies the functionality of the composite 
 3. **Waveform Dumping**: The simulation waveform is dumped for visualization.
 
 ## Repository Structure
-- **`simple_memory.v`**: Verilog code for the simple memory module.
-- **`composite_memory.v`**: Verilog code for the composite memory module.
-- **`composite_memory_tb.v`**: Verilog testbench for the composite memory module.
-- **`waveform.vcd`**: Simulation waveform file (generated during simulation).
+- **`SimpleMemory.v`**: Verilog code for the simple memory module.
+- **`SimpleMemory_Testbench.v`**: Verilog testbench for the simple memory module.
+- **`CompositeMemory.v`**: Verilog code for the composite memory module.
+- **`CompositeMemory_Testbench.v`**: Verilog testbench for the composite memory module.
+- **`EE5530_Assignment1.pdf`**: Assignment Report with a BUG SIMULATION in the edaplayground.
 
 ## Usage
 1. **Simulation**: Use a Verilog simulator (e.g., Icarus Verilog, ModelSim) to run the testbench.
@@ -45,16 +46,5 @@ The testbench will display the results of the read operations, showing the data 
 - Read from `0x8002`: `3C`
 - Read from `0xC003`: `7E`
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
 ## Acknowledgments
-- This project was developed as part of a digital design course.
-- Special thanks to the open-source Verilog community for providing valuable resources and tools.
-
----
-
-For more details, refer to the source code and the accompanying documentation. If you have any questions or suggestions, feel free to reach out!
+This implementation is part of the course work for EE5530 Principles of SoC Functional Verification
